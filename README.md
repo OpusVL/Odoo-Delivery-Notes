@@ -1,9 +1,9 @@
 Delivery Notes
 ====================
 
-Modified Report Templates suitable for UK format.
+This module adds delivery notes to the Sales Order object.
 
-This module will make the new template default on print button.
+Delivery notes can be accessed from the Sales Order screen, and printed on the Delivery Note screen.
 
 # Copyright and License
 
