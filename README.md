@@ -1,7 +1,7 @@
 Delivery Notes
 ====================
 
-This module adds delivery notes to the Sales Order object.
+This module adds delivery notes to the Delivery Note object.
 
 Delivery notes can be accessed from the Sales Order screen, and printed on the Delivery Note screen.
 
