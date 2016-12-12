@@ -37,6 +37,9 @@ class StockMove(models.Model):
 
     @api.depends('split_to_moves.product_qty')
     def _outstanding_qty_compute(self):
-        self.outstanding_qty = sum(self.split_to_moves.mapped('product_qty'))
+        for move in self:
+            move.outstanding_qty = sum(
+                move.split_to_moves.mapped('product_qty')
+            )
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
